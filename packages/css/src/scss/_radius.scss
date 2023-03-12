@@ -1,0 +1,45 @@
+@use 'sass:math';
+
+$radiuses: 0, 4, 8, 10, 12, 16, 18, 20, 24, 50, 9999;
+
+$radiusKeys: (
+    'tl': (
+        'top': 'left'
+    ),
+    'tr': (
+        'top': 'right'
+    ),
+    'bl': (
+        'bottom': 'left'
+    ),
+    'br': (
+        'bottom': 'right'
+    ),
+    0: ''
+);
+
+@each $r in $radiuses {
+    @if ($r==9999) {
+        .rounded-full {
+            border-radius: 9999px;
+        }
+    } @else if ($r==50) {
+        .rounded-circle {
+            border-radius: 50%;
+        }
+    } @else {
+        @each $k, $v in $radiusKeys {
+            @if $k==0 {
+                .rounded-#{$r} {
+                    border-radius: #{math.div($r, 16)}rem;
+                }
+            } @else {
+                @each $s1, $s2 in $v {
+                    .rounded-#{$k}-#{$r} {
+                        border-#{$s1}-#{$s2}-radius: #{math.div($r, 16)}rem;
+                    }
+                }
+            }
+        }
+    }
+}

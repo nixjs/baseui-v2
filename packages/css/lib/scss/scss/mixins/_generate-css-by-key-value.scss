@@ -1,0 +1,11 @@
+@mixin generate-css-by-key-value($map, $prefix, $important) {
+    @each $key, $value in $map {
+        .#{$key} {
+            @if $important {
+                #{$prefix}: #{$value} !important;
+            } @else {
+                #{$prefix}: #{$value};
+            }
+        }
+    }
+}

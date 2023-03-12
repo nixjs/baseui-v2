@@ -1,0 +1,46 @@
+@import 'interactivity';
+@import 'effect';
+@import 'background';
+@import 'typography';
+@import 'layout';
+@import 'size';
+@import 'flex';
+
+// interactivity
+@include generate-css-by-key-value($cursors, 'cursor', false);
+@include generate-css-by-key-value($user-selects, 'user-select', false);
+// background
+@include generate-css-by-key-value($bg-colors, 'background-color', false);
+@include generate-css-by-key-value($bg-positions, 'background-position', false);
+@include generate-css-by-key-value($bg-repeats, 'background-repeat', false);
+@include generate-css-by-key-value($bg-sizes, 'background-size', false);
+// typography
+@include generate-css-by-key-value($text-colors, 'color', false);
+@include generate-css-by-key-value($text-aligns, 'text-align', false);
+@include generate-css-by-key-value($text-decorations, 'text-decoration-line', false);
+@include generate-css-by-key-value($text-transforms, 'text-transform', false);
+@include generate-css-by-key-value($text-white-spaces, 'white-space', false);
+@include generate-css-by-key-value($text-styles, 'font-style', false);
+@include generate-css-by-key-value($vertical-aligns, 'vertical-align', false);
+// layout
+@include generate-css-by-key-value($layout-displays, 'display', false);
+@include generate-css-by-key-value($layout-floats, 'float', false);
+@include generate-css-by-key-value($layout-clears, 'clear', false);
+@include generate-css-by-key-value($layout-positions, 'position', false);
+@include generate-css-by-key-value($layout-visibilities, 'visibility', false);
+@include generate-css-by-key-value($layout-tables, 'table-layout', false);
+// flex
+@include generate-css-by-key-value($flex-align-selfs, 'align-self', false);
+@include generate-css-by-key-value($flex-align-contents, 'align-content', false);
+@include generate-css-by-key-value($flex-align-items, 'align-items', false);
+@include generate-css-by-key-value($flex-justify-contents, 'justify-content', false);
+@include generate-css-by-key-value($flex-shrinks, 'flex-shrink', false);
+@include generate-css-by-key-value($flex-grows, 'flex-grow', false);
+@include generate-css-by-key-value($flex-wraps, 'flex-wrap', false);
+@include generate-css-by-key-value($flex-directions, 'flex-direction', false);
+@include generate-css-by-key-value($flex-flexes, 'flex', false);
+
+@import 'radius';
+@import 'spacing';
+@import 'utilities';
+@import 'reset';

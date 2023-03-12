@@ -1,0 +1,21 @@
+{
+  "extends": "tsconfig/react-library.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES5",
+      "ES6",
+      "ES2020"
+    ]
+  },
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ]
+}

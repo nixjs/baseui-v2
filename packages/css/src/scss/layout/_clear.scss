@@ -1,0 +1,12 @@
+$layout-clears: (
+    'clear-right': 'right',
+    'clear-left': 'left',
+    'clear-both': 'both',
+    'clear-none': 'none'
+);
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: '';
+}

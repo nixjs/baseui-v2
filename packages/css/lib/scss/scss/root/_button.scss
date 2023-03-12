@@ -1,0 +1,6 @@
+@mixin buttonProps {
+    --base-button-border-width: var(--base-border-width);
+    --base-button-font-weight: 500;
+    --base-button-icon-spacing: 0.5rem;
+    --base-button-transition-duration: var(--base-transition-fast);
+}

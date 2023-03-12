@@ -1,0 +1,10 @@
+$overflows: 'overflow', 'overflow-x', 'overflow-y';
+$variables: auto, hidden, scroll;
+
+@each $val in $overflows {
+    @each $var in $variables {
+        .#{$val}-#{$var} {
+            #{$val}: $var;
+        }
+    }
+}

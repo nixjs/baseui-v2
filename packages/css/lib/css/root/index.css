@@ -1,0 +1,298 @@
+.zindex--1 {
+  z-index: var(--base-z-index--1);
+}
+
+.zindex-1 {
+  z-index: var(--base-z-index-1);
+}
+
+.zindex-2 {
+  z-index: var(--base-z-index-2);
+}
+
+.zindex-3 {
+  z-index: var(--base-z-index-3);
+}
+
+.zindex-header {
+  z-index: var(--base-z-index-header);
+}
+
+.zindex-overlay {
+  z-index: var(--base-z-index-overlay);
+}
+
+.zindex-dropdown {
+  z-index: var(--base-z-index-dropdown);
+}
+
+.zindex-menu {
+  z-index: var(--base-z-index-menu);
+}
+
+.zindex-sidebar {
+  z-index: var(--base-z-index-sidebar);
+}
+
+.zindex-sidebar-lv1 {
+  z-index: var(--base-z-index-sidebar-lv1);
+}
+
+.zindex-sidebar-lv2 {
+  z-index: var(--base-z-index-sidebar-lv2);
+}
+
+.zindex-sidebar-lv3 {
+  z-index: var(--base-z-index-sidebar-lv3);
+}
+
+.zindex-sidebar-lv4 {
+  z-index: var(--base-z-index-sidebar-lv4);
+}
+
+.zindex-sticky {
+  z-index: var(--base-z-index-sticky);
+}
+
+.zindex-fixed {
+  z-index: var(--base-z-index-fixed);
+}
+
+.zindex-offcanvas-backdrop {
+  z-index: var(--base-z-index-offcanvas-backdrop);
+}
+
+.zindex-offcanvas {
+  z-index: var(--base-z-index-offcanvas);
+}
+
+.zindex-modal-backdrop {
+  z-index: var(--base-z-index-modal-backdrop);
+}
+
+.zindex-modal {
+  z-index: var(--base-z-index-modal);
+}
+
+.zindex-popover {
+  z-index: var(--base-z-index-popover);
+}
+
+.zindex-tooltip {
+  z-index: var(--base-z-index-tooltip);
+}
+
+.zindex-over {
+  z-index: var(--base-z-index-over);
+}
+
+.heading-h1 {
+  font-size: var(--base-h1-size) !important;
+}
+
+.heading-h2 {
+  font-size: var(--base-h2-size) !important;
+}
+
+.heading-h3 {
+  font-size: var(--base-h3-size) !important;
+}
+
+.heading-h4 {
+  font-size: var(--base-h4-size) !important;
+}
+
+.heading-h5 {
+  font-size: var(--base-h5-size) !important;
+}
+
+.heading-h6 {
+  font-size: var(--base-h6-size) !important;
+}
+
+:root {
+  --base-font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --base-gutter-x: 0.75rem;
+  --base-global-radius: 0.4rem;
+  --base-font-size: 14px;
+  --base-border-width: 1px;
+  --base-line-height: 1.5;
+  --base-color-scheme: light;
+  --base-background-color: transparent;
+  --base-transition-fast: 200ms;
+  --base-transition-slow: 400ms;
+  --base-kbd-background: rgb(246, 247, 248);
+  --base-kbd-color: #393a34;
+  --base-kbd-border-radius: var(--base-global-radius);
+  --base-kbd-border-color: rgba(0, 0, 0, 0.1);
+  --base-code-background: rgb(246, 247, 248);
+  --base-code-border-radius: var(--base-global-radius);
+  --base-code-font-size: 90%;
+  --base-code-padding-horizontal: 0.1rem;
+  --base-code-padding-vertical: 0.1rem;
+  --prism-color: #393a34;
+  --prism-background-color: #f6f8fa;
+  --base-pre-background: #f5f6f7;
+  --base-pre-border-radius: var(--base-code-border-radius);
+  --base-pre-color: inherit;
+  --base-pre-line-height: 1.45;
+  --base-pre-padding: 1rem;
+  --base-color-primary: #b80037;
+  --base-color-primary-1: #da0041;
+  --base-color-primary-2: #e70d4e;
+  --base-color-primary-3: #ee2864;
+  --base-color-primary-4: ##fb5889;
+  --base-color-secondary: #1254d5;
+  --base-color-secondary-1: #1262ff;
+  --base-color-secondary-2: #2972ff;
+  --base-color-secondary-3: #4987ff;
+  --base-color-secondary-4: #699cff;
+  --base-color-success: #087b5c;
+  --base-color-success-1: #10ac63;
+  --base-color-success-2: #17c964;
+  --base-color-success-3: #4ade7b;
+  --base-color-success-4: #6fee8d;
+  --base-color-success-5: #a1f9ac;
+  --base-color-success-6: #cffcd1;
+  --base-color-info: #154890;
+  --base-color-info-1: #2b7cc9;
+  --base-color-info-2: #3c9fea;
+  --base-color-info-3: #6bbff2;
+  --base-color-info-4: #89d5f8;
+  --base-color-info-5: #b1e9fc;
+  --base-color-info-6: #d8f6fd;
+  --base-color-warning: #9d4c1b;
+  --base-color-warning-1: #db8637;
+  --base-color-warning-2: #ffab4c;
+  --base-color-warning-3: #ffc678;
+  --base-color-warning-4: #ffd693;
+  --base-color-warning-5: #ffe7b7;
+  --base-color-warning-6: #fff4db;
+  --base-color-danger: #9d1033;
+  --base-color-danger-1: #db202d;
+  --base-color-danger-2: #ff312d;
+  --base-color-danger-3: #ff7161;
+  --base-color-danger-4: #ff9881;
+  --base-color-danger-5: #ffc2ab;
+  --base-color-danger-6: #ffe4d5;
+  --base-color-light: #ffffff;
+  --base-color-light-1: rgba(255, 255, 255, 0.7);
+  --base-color-light-2: rgba(255, 255, 255, 0.5);
+  --base-color-light-3: rgba(255, 255, 255, 0.3);
+  --base-color-light-4: rgba(255, 255, 255, 0.2);
+  --base-color-light-5: rgba(255, 255, 255, 0.1);
+  --base-color-dark: #0c0c0c;
+  --base-color-dark-1: rgba(0, 0, 0, 0.7);
+  --base-color-dark-2: rgba(0, 0, 0, 0.5);
+  --base-color-dark-3: rgba(0, 0, 0, 0.3);
+  --base-color-dark-4: rgba(0, 0, 0, 0.2);
+  --base-color-dark-5: rgba(0, 0, 0, 0.1);
+  --base-color-ink: #131a32;
+  --base-color-ink-1: #1b2649;
+  --base-color-ink-2: #2a3560;
+  --base-color-ink-3: #323f73;
+  --base-color-ink-4: #3b4b89;
+  --base-color-ink-5: #52619e;
+  --base-functional-stressful: #ff3131;
+  --base-functional-positive: #66c046;
+  --base-functional-careful: #ffc82a;
+  --base-functional-useful: #2972ff;
+  --base-functional-blue-light: #0072f8;
+  --base-functional-negative: #e63333;
+  --base-color-gradient-ink: linear-gradient(235.06deg, #283666 29.43%, #161e3c 89.74%);
+  --base-black: #000000;
+  --base-black-1: rgba(0, 0, 0, 0.9);
+  --base-black-2: rgba(0, 0, 0, 0.8);
+  --base-black-3: rgba(0, 0, 0, 0.7);
+  --base-black-4: rgba(0, 0, 0, 0.6);
+  --base-black-5: rgba(0, 0, 0, 0.5);
+  --base-black-6: rgba(0, 0, 0, 0.4);
+  --base-black-7: rgba(0, 0, 0, 0.3);
+  --base-black-8: rgba(0, 0, 0, 0.2);
+  --base-black-9: rgba(0, 0, 0, 0.1);
+  --base-white: #ffffff;
+  --base-white-1: rgba(255, 255, 255, 0.9);
+  --base-white-2: rgba(255, 255, 255, 0.8);
+  --base-white-3: rgba(255, 255, 255, 0.7);
+  --base-white-4: rgba(255, 255, 255, 0.6);
+  --base-white-5: rgba(255, 255, 255, 0.5);
+  --base-white-6: rgba(255, 255, 255, 0.4);
+  --base-white-7: rgba(255, 255, 255, 0.3);
+  --base-white-8: rgba(255, 255, 255, 0.2);
+  --base-white-9: rgba(255, 255, 255, 0.1);
+  --base-white-05: rgba(255, 255, 255, 0.05);
+  --base-gray: #16181a;
+  --base-gray-1: #26292b;
+  --base-gray-2: #2b2f31;
+  --base-gray-3: #313538;
+  --base-gray-4: #3a3f42;
+  --base-gray-5: #4c5155;
+  --base-gray-6: #697177;
+  --base-gray-7: #787f85;
+  --base-gray-8: #9ba1a6;
+  --base-gray-9: #ecedee;
+  --base-transparent: transparent;
+  --base-button-border-width: var(--base-border-width);
+  --base-button-font-weight: 500;
+  --base-button-icon-spacing: 0.5rem;
+  --base-button-transition-duration: var(--base-transition-fast);
+  --base-link-color: var(--base-font-color);
+  --base-link-hover-color: var(--base-color-primary);
+  --base-link-active-color: var(--base-link-color);
+  --base-link-hover-text-decoration: underline;
+  --base-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --base-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --base-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --base-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --base-shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --base-shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --base-shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  --base-shadow-none: 0 0 #0000;
+  --base-h1-size: 2.5rem;
+  --base-h2-size: 2rem;
+  --base-h3-size: 1.75rem;
+  --base-h4-size: 1.5rem;
+  --base-h5-size: 1.25rem;
+  --base-h6-size: 1rem;
+  --base-z-index--1: -1;
+  --base-z-index-1: 1;
+  --base-z-index-2: 2;
+  --base-z-index-3: 3;
+  --base-z-index-header: 998;
+  --base-z-index-overlay: 998;
+  --base-z-index-dropdown: 1000;
+  --base-z-index-menu: 1001;
+  --base-z-index-sidebar: 1002;
+  --base-z-index-sidebar-lv1: 1003;
+  --base-z-index-sidebar-lv2: 1004;
+  --base-z-index-sidebar-lv3: 1005;
+  --base-z-index-sidebar-lv4: 1006;
+  --base-z-index-sticky: 1020;
+  --base-z-index-fixed: 1030;
+  --base-z-index-offcanvas-backdrop: 1040;
+  --base-z-index-offcanvas: 1045;
+  --base-z-index-modal-backdrop: 1050;
+  --base-z-index-modal: 1055;
+  --base-z-index-popover: 1070;
+  --base-z-index-tooltip: 1080;
+  --base-z-index-over: 9999;
+}
+
+html {
+  font-size: 100%;
+}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin: 0;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+  background-color: var(--base-background-color);
+  color: var(--base-font-color);
+  font: var(--base-font-size)/var(--base-line-height) var(--base-font-family);
+}

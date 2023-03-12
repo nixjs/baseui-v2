@@ -1,0 +1,125 @@
+.text-4 {
+  font-size: 0.25rem;
+}
+
+.text-6 {
+  font-size: 0.375rem;
+}
+
+.text-8 {
+  font-size: 0.5rem;
+}
+
+.text-12 {
+  font-size: 0.75rem;
+}
+
+.text-14 {
+  font-size: 0.875rem;
+}
+
+.text-16 {
+  font-size: 1rem;
+}
+
+.text-18 {
+  font-size: 1.125rem;
+}
+
+.text-20 {
+  font-size: 1.25rem;
+}
+
+.text-24 {
+  font-size: 1.5rem;
+}
+
+.text-26 {
+  font-size: 1.625rem;
+}
+
+.text-28 {
+  font-size: 1.75rem;
+}
+
+.text-30 {
+  font-size: 1.875rem;
+}
+
+.text-32 {
+  font-size: 2rem;
+}
+
+.text-34 {
+  font-size: 2.125rem;
+}
+
+.text-36 {
+  font-size: 2.25rem;
+}
+
+.text-48 {
+  font-size: 3rem;
+}
+
+.text-56 {
+  font-size: 3.5rem;
+}
+
+.text-64 {
+  font-size: 4rem;
+}
+
+.text-72 {
+  font-size: 4.5rem;
+}
+
+.text-128 {
+  font-size: 8rem;
+}
+
+.w100 {
+  font-weight: 100;
+}
+
+.w200 {
+  font-weight: 200;
+}
+
+.w300 {
+  font-weight: 300;
+}
+
+.w400 {
+  font-weight: 400;
+}
+
+.w500 {
+  font-weight: 500;
+}
+
+.w600 {
+  font-weight: 600;
+}
+
+.w700 {
+  font-weight: 700;
+}
+
+.w900 {
+  font-weight: 900;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.text-clip {
+  text-overflow: clip;
+}

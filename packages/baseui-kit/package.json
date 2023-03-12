@@ -1,0 +1,30 @@
+{
+  "name": "@nixjs23n6/baseui-kit",
+  "version": "0.0.0",
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "format:check": "prettier --check --loglevel error 'src/**/*.{ts,tsx,css,scss}'",
+    "format:write": "prettier --write 'src/**/*.{ts,tsx,css,scss}'"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-transition-group": "^4.4.5",
+    "eslint": "^8.36.0",
+    "eslint-config-custom": "workspace:*",
+    "react": "^18.2.0",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@stitches/react": "^1.2.8",
+    "bignumber.js": "^9.1.1",
+    "classnames": "^2.3.2",
+    "react-popper": "^2.3.0",
+    "react-transition-group": "^4.4.5"
+  }
+}

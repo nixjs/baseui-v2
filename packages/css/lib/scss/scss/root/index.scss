@@ -1,0 +1,50 @@
+@import "../mixins/generate-variable-in-root";
+@import "../layout/zindex";
+@import "common";
+@import "color";
+@import "button";
+@import "link";
+@import "shadow";
+@import "heading";
+
+:root {
+  --base-font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --base-gutter-x: 0.75rem;
+  --base-global-radius: 0.4rem;
+  --base-font-size: 14px;
+  --base-border-width: 1px;
+  --base-line-height: 1.5;
+  --base-color-scheme: light;
+  --base-background-color: transparent;
+  --base-transition-fast: 200ms;
+  --base-transition-slow: 400ms;
+  // + breakpoint
+  @include commonProps;
+  @include colorProps;
+  @include buttonProps;
+  @include linkProps;
+  @include shadowProps;
+  // + font-size
+  @include generate-variable-in-root($headingSizes, "base", "-size");
+  // + z-index
+  @include generate-variable-in-root($zIndexes, "base-z-index", "");
+}
+
+html {
+  font-size: 100%;
+}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin: 0;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+  background-color: var(--base-background-color);
+  color: var(--base-font-color);
+  font: var(--base-font-size) / var(--base-line-height) var(--base-font-family);
+}

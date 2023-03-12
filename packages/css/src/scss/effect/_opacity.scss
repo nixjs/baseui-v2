@@ -1,0 +1,8 @@
+@use 'sass:math';
+$opacities: 1, 2, 3, 4, 5, 6, 7, 9;
+
+@each $o in $opacities {
+    .opacity-#{$o} {
+        opacity: math.div($o, 10);
+    }
+}
